@@ -1,0 +1,128 @@
+
+.choose-container.data-v-6895321e {
+  background: #fff;
+  min-height: 100vh;
+  padding-bottom: 220rpx;
+}
+.top-img-wrap.data-v-6895321e {
+  width: 100vw;
+  line-height: 0;
+}
+.product-img-full.data-v-6895321e {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+.product-info.data-v-6895321e {
+  padding: 32rpx 32rpx 0;
+}
+.product-name.data-v-6895321e {
+  font-size: 42rpx;
+  font-weight: 700;
+  color: #222;
+}
+.product-desc.data-v-6895321e {
+  font-size: 28rpx;
+  color: #666;
+  margin: 12rpx 0 8rpx;
+}
+.divider.data-v-6895321e {
+  height: 2rpx;
+  background: #000;
+  margin: 24rpx 0;
+}
+.option-group.data-v-6895321e {
+  margin: 40rpx 32rpx 0;
+}
+.option-title.data-v-6895321e {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20rpx;
+}
+.option-list.data-v-6895321e {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rpx 20rpx; /* 约5mm间距 */
+}
+.option-btn.data-v-6895321e {
+  padding: 8rpx 24rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 0;
+  background: #fff;
+  font-size: 26rpx;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: unset;
+  min-height: unset;
+  margin: 0;
+  line-height: 1.2;
+  height: auto;
+  transition: border-color .2s, color .2s, background .2s;
+}
+.option-btn.selected.data-v-6895321e {
+  border-color: #66ccff;
+  background: #fff;
+  color: #333;
+}
+.summary.data-v-6895321e {
+  margin: 40rpx 32rpx;
+  font-size: 28rpx;
+  color: #222;
+  font-weight: 500;
+}
+/* 价格 + 数量 */
+.price-qty-line.data-v-6895321e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32rpx;
+  margin-bottom: 20rpx;
+}
+.footer-price.data-v-6895321e {
+  font-size: 44rpx;
+  font-weight: 700;
+  color: #fa5252;
+}
+.qty-box.data-v-6895321e {
+  display: flex;
+  align-items: center;
+}
+.square-btn.data-v-6895321e {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid #ffb300;
+  background: #fff;
+  font-size: 36rpx;
+  color: #ffb300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qty-num.data-v-6895321e {
+  font-size: 32rpx;
+  color: #222;
+  min-width: 60rpx;
+  text-align: center;
+  margin: 0 16rpx;
+}
+/* 蓝色加入购物车按钮 */
+.add-cart-btn.data-v-6895321e {
+  margin: 0 32rpx 40rpx;
+  background: #0099ff;
+  color: #fff;
+  border-radius: 10rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+  height: 88rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0,153,255,.3);
+  border: none;
+}
+.add-cart-btn.data-v-6895321e:active {
+  opacity: 0.85;
+}
+

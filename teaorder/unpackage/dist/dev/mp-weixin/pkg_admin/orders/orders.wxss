@@ -1,0 +1,280 @@
+
+.orders-container.data-v-1d563304 {
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding-top: 120rpx;
+}
+.order-status-tabs-scroll.data-v-1d563304 {
+  width: 100vw;
+  overflow-x: auto;
+  background: #fff;
+  border-bottom: 1rpx solid #e9ecef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.order-status-tabs.data-v-1d563304 {
+  display: flex;
+  gap: 12rpx;
+  padding: 16rpx 24rpx 0 24rpx;
+}
+.order-status-tab.data-v-1d563304 {
+  font-size: 26rpx;
+  color: #6c757d;
+  padding: 12rpx 24rpx;
+  border-radius: 20rpx;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 12rpx;
+  white-space: nowrap;
+  border: 1rpx solid transparent;
+}
+.order-status-tab.active.data-v-1d563304 {
+  background: #007aff;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 2rpx 8rpx rgba(0, 122, 255, 0.3);
+}
+.batch-bar-fixed.data-v-1d563304 {
+  position: fixed;
+  top: 80rpx;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 24rpx;
+  border-bottom: 1rpx solid #e9ecef;
+  box-shadow: 0 1rpx 3rpx rgba(0, 0, 0, 0.08);
+}
+.batch-left.data-v-1d563304 {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+.batch-all-checkbox.data-v-1d563304 {
+  margin-right: 1rpx;
+}
+.batch-all-text.data-v-1d563304 {
+  font-size: 28rpx;
+  color: #495057;
+  font-weight: 500;
+}
+.batch-btn.data-v-1d563304 {
+  margin-right: 10rpx;
+  background: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 12rpx;
+  padding: 12rpx 24rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2rpx 8rpx rgba(0, 122, 255, 0.2);
+}
+.batch-btn.data-v-1d563304:disabled {
+  background: #dee2e6;
+  color: #adb5bd;
+  box-shadow: none;
+}
+.orders-list.data-v-1d563304 {
+  padding: 24rpx;
+  padding-top: 130rpx;
+  height: calc(100vh - 200rpx);
+  overflow-y: auto;
+}
+.orders-list.no-batch-bar.data-v-1d563304 {
+  padding-top: 30rpx;
+}
+.order-item.data-v-1d563304 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 20rpx;
+  padding: 24rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: flex-start;
+  gap: 20rpx;
+  transition: all 0.3s ease;
+  border: 1rpx solid #f1f3f4;
+}
+.order-item.data-v-1d563304:hover {
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-2rpx);
+          transform: translateY(-2rpx);
+}
+.order-checkbox.data-v-1d563304 {
+  margin-top: 8rpx;
+}
+.order-content.data-v-1d563304 {
+  flex: 1;
+  position: relative;
+}
+.order-header.data-v-1d563304 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+.order-id.data-v-1d563304 {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #212529;
+}
+.order-status.data-v-1d563304 {
+  padding: 6rpx 16rpx;
+  border-radius: 16rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+  text-align: center;
+  min-width: 80rpx;
+}
+.order-status.pending.data-v-1d563304 { 
+  background: #fff3cd; 
+  color: #856404; 
+  border: 1rpx solid #ffeaa7;
+}
+.order-status.paid.data-v-1d563304 { 
+  background: #d1ecf1; 
+  color: #0c5460; 
+  border: 1rpx solid #bee5eb;
+}
+.order-status.preparing.data-v-1d563304 { 
+  background: #f8d7da; 
+  color: #721c24; 
+  border: 1rpx solid #f5c6cb;
+}
+.order-status.ready.data-v-1d563304 { 
+  background: #d4edda; 
+  color: #155724; 
+  border: 1rpx solid #c3e6cb;
+}
+.order-status.delivering.data-v-1d563304 { 
+  background: #e2e3e5; 
+  color: #383d41; 
+  border: 1rpx solid #d6d8db;
+}
+.order-status.completed.data-v-1d563304 { 
+  background: #d1ecf1; 
+  color: #0c5460; 
+  border: 1rpx solid #bee5eb;
+}
+.order-info.data-v-1d563304 {
+  display: flex;
+  gap: 24rpx;
+  margin-bottom: 12rpx;
+}
+.order-user.data-v-1d563304, .order-type.data-v-1d563304 {
+  font-size: 26rpx;
+  color: #6c757d;
+  font-weight: 400;
+}
+.order-type.data-v-1d563304 {
+  background: #e6f7ff;
+  color: #1890ff;
+  padding: 4rpx 12rpx;
+  border-radius: 12rpx;
+  white-space: nowrap;
+  display: inline-block;
+  min-width: 60rpx;
+  text-align: center;
+  line-height: 1.2;
+}
+.order-amount.data-v-1d563304 {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #dc3545;
+  margin-bottom: 20rpx;
+}
+.order-actions.data-v-1d563304 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.action-btn.data-v-1d563304 {
+  background: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 12rpx;
+  padding: 10rpx 20rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2rpx 8rpx rgba(0, 122, 255, 0.2);
+}
+.action-btn.data-v-1d563304:hover {
+  background: #0056b3;
+  box-shadow: 0 4rpx 12rpx rgba(0, 122, 255, 0.3);
+}
+.action-btn.detail.data-v-1d563304 {
+  background: #6c757d;
+  box-shadow: 0 2rpx 8rpx rgba(108, 117, 125, 0.2);
+}
+.action-btn.detail.data-v-1d563304:hover {
+  background: #545b62;
+  box-shadow: 0 4rpx 12rpx rgba(108, 117, 125, 0.3);
+}
+.action-btn.cancel.data-v-1d563304 {
+  background: #dc3545;
+  box-shadow: 0 2rpx 8rpx rgba(220, 53, 69, 0.2);
+}
+.action-btn.cancel.data-v-1d563304:hover {
+  background: #c82333;
+  box-shadow: 0 4rpx 12rpx rgba(220, 53, 69, 0.3);
+}
+
+/* 空状态 */
+.empty-state.data-v-1d563304 {
+  text-align: center;
+  padding: 120rpx 24rpx;
+  color: #6c757d;
+}
+.empty-icon.data-v-1d563304 {
+  font-size: 80rpx;
+  margin-bottom: 24rpx;
+  opacity: 0.5;
+}
+.empty-text.data-v-1d563304 {
+  font-size: 32rpx;
+  color: #495057;
+  font-weight: 500;
+  margin-bottom: 12rpx;
+  display: block;
+}
+
+/* 加载状态 */
+.loading-more.data-v-1d563304 {
+  text-align: center;
+  padding: 40rpx;
+  color: #6c757d;
+}
+.loading-text.data-v-1d563304 {
+  font-size: 26rpx;
+  color: #adb5bd;
+}
+
+/* 响应式设计 */
+@media (max-width: 750rpx) {
+.order-status-tabs.data-v-1d563304 {
+    gap: 8rpx;
+    padding: 12rpx 16rpx 0 16rpx;
+}
+.order-status-tab.data-v-1d563304 {
+    font-size: 24rpx;
+    padding: 10rpx 20rpx;
+}
+.orders-list.data-v-1d563304 {
+    padding: 16rpx;
+    padding-top: 160rpx;
+}
+.order-item.data-v-1d563304 {
+    padding: 20rpx;
+    margin-bottom: 16rpx;
+}
+}
+

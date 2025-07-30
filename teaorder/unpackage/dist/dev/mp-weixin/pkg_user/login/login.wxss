@@ -1,0 +1,107 @@
+
+.login-container.data-v-fe49f2c0 {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 60rpx 40rpx;
+}
+.login-header.data-v-fe49f2c0 {
+  text-align: center;
+  margin-bottom: 40rpx;
+  padding-top: 60rpx;
+}
+.logo.data-v-fe49f2c0 {
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 30rpx;
+}
+.welcome-text.data-v-fe49f2c0 {
+  display: block;
+  font-size: 44rpx;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10rpx;
+}
+/* 用户类型选择器 */
+.user-type-selector.data-v-fe49f2c0 {
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16rpx;
+  padding: 8rpx;
+  margin-bottom: 40rpx;
+}
+.type-option.data-v-fe49f2c0 {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  border-radius: 12rpx;
+  transition: all 0.3s ease;
+}
+.type-option.active.data-v-fe49f2c0 {
+  background: #fff;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+}
+.type-text.data-v-fe49f2c0 {
+  font-size: 28rpx;
+  color: #fff;
+  font-weight: 500;
+}
+.type-option.active .type-text.data-v-fe49f2c0 {
+  color: #667eea;
+}
+.login-form.data-v-fe49f2c0 {
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 60rpx 40rpx;
+  box-shadow: 0 8rpx 32rpx rgba(0, 0, 0, 0.1);
+}
+.input-group.data-v-fe49f2c0 {
+  margin-bottom: 40rpx;
+}
+.input-label.data-v-fe49f2c0 {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+.input-field.data-v-fe49f2c0 {
+  width: 100%;
+  height: 88rpx;
+  border: 2rpx solid #e5e5e5;
+  border-radius: 12rpx;
+  padding: 0 24rpx;
+  font-size: 32rpx;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+.input-field.data-v-fe49f2c0:focus {
+  border-color: #667eea;
+  background: #fff;
+}
+.login-btn.data-v-fe49f2c0 {
+  width: 100%;
+  height: 88rpx;
+  background: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 12rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.login-btn.data-v-fe49f2c0:disabled {
+  background: #ccc;
+}
+.to-register.data-v-fe49f2c0 {
+  text-align: center;
+  margin-top: 40rpx;
+  color: #888;
+  font-size: 28rpx;
+}
+.to-register-link.data-v-fe49f2c0 {
+  color: #667eea;
+  margin-left: 10rpx;
+  text-decoration: underline;
+  cursor: pointer;
+}
+

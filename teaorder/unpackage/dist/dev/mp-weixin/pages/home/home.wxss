@@ -1,0 +1,504 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 与之前完全一致，仅指示器部分替换 */
+.modern-bg.data-v-92bb8f34 {
+  min-height: 100vh;
+  background: #fff;
+  padding-bottom: 120rpx;
+}
+.swiper-wrapper.data-v-92bb8f34 { position: relative;
+}
+.home-swiper.data-v-92bb8f34 { width: 100vw; height: 100vw;
+}
+.swiper-img.data-v-92bb8f34 { width: 100%; height: 100%; object-fit: cover;
+}
+/* 平滑移动指示器通用样式 */
+.custom-indicator.data-v-92bb8f34,
+.promo-indicator.data-v-92bb8f34 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 26rpx;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+.promo-indicator.data-v-92bb8f34 { bottom: 16rpx;
+}
+.indicator-track.data-v-92bb8f34 {
+  display: flex;
+  width: 60%;
+  height: 6rpx;
+  background: rgba(255,255,255,.4);
+  border-radius: 3rpx;
+  overflow: hidden;
+  position: relative;
+}
+.bar.data-v-92bb8f34 {
+  flex: 1;
+  height: 100%;
+}
+.slider.data-v-92bb8f34 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;           /* 每个滑块占 1/图片数量 */
+  height: 100%;
+  background: #ffb300;
+  border-radius: 3rpx;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+/* 浮层卡片 */
+.banner-float-card.data-v-92bb8f34 {
+  margin: -90rpx 0rpx 18rpx;  /* 重点：-120rpx 把卡片往轮播图底部贴 */
+  height: 160rpx;
+  background: #fff;
+  border: 1px solid #f3e6c1;
+  border-radius: 24rpx;
+  padding: 0 12rpx;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, .08);
+  position: relative;
+}
+.banner-img.data-v-92bb8f34 { width: 120rpx; height: 120rpx; border-radius: 20rpx; box-shadow: 0 4rpx 16rpx #e0ffd6; flex-shrink: 0;
+}
+.banner-text.data-v-92bb8f34 { margin-left: 24rpx; display: flex; flex-direction: column; justify-content: center;
+}
+.banner-title.data-v-92bb8f34 { font-size: 36rpx; font-weight: bold; color: #ffb300; margin-bottom: 6rpx;
+}
+.banner-sub.data-v-92bb8f34 { font-size: 26rpx; color: #666;
+}
+.login-hint.data-v-92bb8f34 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16rpx;
+  padding: 12rpx 20rpx;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 20rpx;
+}
+.login-text.data-v-92bb8f34 {
+  font-size: 24rpx;
+  color: #667eea;
+}
+.login-arrow.data-v-92bb8f34 {
+  font-size: 24rpx;
+  color: #667eea;
+}
+.home-section.data-v-92bb8f34 { margin-top: 100rpx; padding: 0 30rpx;
+}
+.home-card.data-v-92bb8f34 { background: #fff; border-radius: 24rpx; box-shadow: 0 4rpx 24rpx #f3e6c1; margin-bottom: 32rpx; padding: 32rpx 24rpx;
+}
+.section-title.data-v-92bb8f34 { font-size: 32rpx; font-weight: bold; color: #333; margin-bottom: 18rpx; display: flex; align-items: center;
+}
+.hot-text.data-v-92bb8f34 {
+  background: linear-gradient(135deg, #ff8a00, #ff5252);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  display: inline-block;
+  margin-right: 8rpx;
+}
+.hot-text.data-v-92bb8f34::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4rpx;
+  width: 100%;
+  height: 6rpx;
+  background: linear-gradient(135deg, #ff8a00, #ff5252);
+  border-radius: 3rpx;
+  opacity: 0.6;
+  -webkit-animation: wave-data-v-92bb8f34 1.5s ease-in-out infinite;
+          animation: wave-data-v-92bb8f34 1.5s ease-in-out infinite;
+}
+.flame-icon.data-v-92bb8f34 {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 8rpx;
+}
+@-webkit-keyframes wave-data-v-92bb8f34 {
+0%, 100% { -webkit-transform: translateY(0); transform: translateY(0);
+}
+50% { -webkit-transform: translateY(-4rpx); transform: translateY(-4rpx);
+}
+}
+@keyframes wave-data-v-92bb8f34 {
+0%, 100% { -webkit-transform: translateY(0); transform: translateY(0);
+}
+50% { -webkit-transform: translateY(-4rpx); transform: translateY(-4rpx);
+}
+}
+.recommend-list.data-v-92bb8f34 { display: flex; flex-direction: row; overflow-x: auto; white-space: nowrap;
+}
+.recommend-item.data-v-92bb8f34 { display: inline-flex; flex-direction: column; align-items: center; margin-right: 32rpx;
+}
+.recommend-img.data-v-92bb8f34 { width: 120rpx; height: 120rpx; border-radius: 16rpx; background: #f5f5f5; margin-bottom: 8rpx;
+}
+.recommend-name.data-v-92bb8f34 { font-size: 26rpx; color: #333;
+}
+.benefit-list.data-v-92bb8f34 { display: flex; flex-direction: row; justify-content: space-between; margin-top: 18rpx;
+}
+.benefit-item.data-v-92bb8f34 { display: flex; flex-direction: column; align-items: center; width: 32%;
+}
+.benefit-icon.data-v-92bb8f34 { width: 60rpx; height: 60rpx; margin-bottom: 8rpx;
+}
+.benefit-title.data-v-92bb8f34 { font-size: 26rpx; color: #ffb300; font-weight: bold;
+}
+.benefit-desc.data-v-92bb8f34 { font-size: 22rpx; color: #888; text-align: center;
+}
+/* 优惠海报轮播 */
+.promo-swiper.data-v-92bb8f34 { width: 100%; height: 280rpx; position: relative;
+}
+.promo-img.data-v-92bb8f34 { width: 100%; height: 100%; display: block;
+}
+.hot-scroll-list.data-v-92bb8f34 {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10rpx;
+}
+.hot-card.data-v-92bb8f34 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220rpx;
+  background: #fff;
+  border-radius: 18rpx;
+  margin-right: 24rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.06);
+  padding: 20rpx 16rpx 16rpx 16rpx;
+  position: relative;
+  vertical-align: top;
+}
+.hot-img.data-v-92bb8f34 {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 12rpx;
+  object-fit: cover;
+}
+.hot-info.data-v-92bb8f34 {
+  width: 100%;
+  text-align: left;
+  margin-top: 12rpx;
+}
+.hot-name.data-v-92bb8f34 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+.hot-price.data-v-92bb8f34 {
+  font-size: 24rpx;
+  color: #fa5252;
+  margin-top: 4rpx;
+  display: block;
+}
+.hot-plus-btn.data-v-92bb8f34 {
+  position: absolute;
+  right: 18rpx;
+  bottom: 18rpx;
+  width: 48rpx;
+  height: 48rpx;
+  background: #ffb300;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  box-shadow: 0 2rpx 8rpx rgba(255,179,0,0.12);
+  z-index: 2;
+  cursor: pointer;
+}
+.home-feature-bar.data-v-92bb8f34 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 18rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
+  margin: 24rpx 0 24rpx 0;
+  padding: 24rpx 32rpx;
+}
+.feature-btn.data-v-92bb8f34 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+.feature-btn + .feature-btn.data-v-92bb8f34 {
+  margin-left: 32rpx;
+}
+.feature-icon.data-v-92bb8f34 {
+  width: 64rpx;
+  height: 64rpx;
+  margin-bottom: 8rpx;
+}
+.start-order.data-v-92bb8f34 {
+  background: #fffbe6;
+  border-radius: 12rpx;
+  padding: 12rpx 0;
+}
+.delivery.data-v-92bb8f34 {
+  background: #e6f7ff;
+  border-radius: 12rpx;
+  padding: 12rpx 0;
+}
+

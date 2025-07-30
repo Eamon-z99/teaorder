@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/myOrder/myOrder",
+    "pages/me/me"
+  ],
+  "subPackages": [
+    {
+      "root": "pkg_order",
+      "pages": [
+        "confirmOrder/confirmOrder",
+        "orderDetail/orderDetail"
+      ]
+    },
+    {
+      "root": "pkg_user",
+      "pages": [
+        "login/login",
+        "register/register",
+        "address/address",
+        "address/baiduMapSelect",
+        "points/points",
+        "editUser/editUser"
+      ]
+    },
+    {
+      "root": "pkg_product",
+      "pages": [
+        "choose/choose"
+      ]
+    },
+    {
+      "root": "pkg_admin",
+      "pages": [
+        "dashboard/dashboard",
+        "orders/orders",
+        "orders/detail",
+        "products/products",
+        "products/add",
+        "products/edit",
+        "categories/categories",
+        "users/users",
+        "users/userDetail",
+        "statistics/statistics",
+        "analytics/analytics",
+        "settings/settings",
+        "coupons/coupons"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#ffb300",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/button/1.png",
+        "selectedIconPath": "static/button/1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "点单",
+        "iconPath": "static/button/2.png",
+        "selectedIconPath": "static/button/2.png"
+      },
+      {
+        "pagePath": "pages/myOrder/myOrder",
+        "text": "订单",
+        "iconPath": "static/button/3.png",
+        "selectedIconPath": "static/button/3.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/button/4.png",
+        "selectedIconPath": "static/button/4.png"
+      }
+    ]
+  },
+  "minified": true,
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于为您提供更准确的地址选择服务"
+    }
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "usingComponents": {}
+}
